@@ -1,15 +1,15 @@
 {
     "name": "koa-weapp-demo",
     "version": "1.0.0",
-    "description": "",
+    "description": "ownkoa project",
     "main": "app.js",
     "scripts": {
         "start": "pm2 start process.prod.json --no-daemon",
         "dev": "nodemon --config nodemon.json app.js",
         "initdb": "npm install && node tools/initdb.js"
     },
-    "author": "Jason",
-    "license": "MIT",
+    "author": "Andy Fu",
+    "license": "",
     "dependencies": {
         "axios": "^0.15.3",
         "knex": "^0.13.0",
@@ -17,6 +17,8 @@
         "koa-bodyparser": "^3.2.0",
         "koa-log4": "^2.1.0",
         "koa-router": "^7.0.1",
+        "koa-route": "^3.2.0",
+        "koa-static": "^4.0.1",
         "lodash": "^4.17.4",
         "mkdir-p": "0.0.7",
         "mysql": "^2.14.1",
